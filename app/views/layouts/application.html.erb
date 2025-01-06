@@ -22,7 +22,16 @@
     <%= javascript_importmap_tags %>
   </head>
 
+
   <body>
+<nav>
+
+  <ul>
+    <li><%= link_to 'Home', root_path %></li>
+    <li><%= link_to 'Questions', questions_url %></li> localhost:3000/questions
+  </ul>
+</nav>
+
     <%= yield %>
   </body>
 </html>
